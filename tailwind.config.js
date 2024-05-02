@@ -5,7 +5,8 @@ export default {
     extend: {
       backgroundImage: {
         hero: "url('./src/assets/bghero.jpg')",
-        revolution:"url('./src/assets/revolution.jpg')"
+        revolution:"url('./src/assets/revolution.jpg')",
+        roadmap:"url('./src/assets/roadmap.png')"
       
       },
       
