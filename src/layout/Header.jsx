@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
-
+import logo from '../assets/Futurx-logo.png'
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
 
@@ -27,7 +27,7 @@ const Header = () => {
         <header className="flex sm:flex-row justify-between h-auto sm:h-[100px] bg-[#350557] text-white items-center sticky top-0 z-10 px-4 sm:px-10">
             <Fade direction="down" duration={2000} triggerOnce>
                 <Link to="/">
-                    <img className='w-[100px] cursor-pointer' src="/src/assets/Futurx-logo.png" alt="Logo" />
+                    <img className='w-[100px] cursor-pointer' src={logo} alt="Logo" />
                 </Link>
             </Fade>
             <div className='sm:hidden'>

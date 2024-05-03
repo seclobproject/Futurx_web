@@ -1,9 +1,10 @@
 import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 import logo from '../../../assets/heroLogo.png'
+import banner from '../../../assets/last-02.png'
 const Hero = () => {
   return (
-    <div className='w-full h-[100vh] bg-hero bg-center bg-cover flex items-center px-[10%] '>
+    <div style={{ backgroundImage:`url(${banner})`}} className='w-full h-[100vh] bg-center bg-cover flex items-center px-[10%] '>
       <Fade direction="left" duration={2000} triggerOnce="true">
         <div className='flex flex-col justify-center w-full h-[100vh] sm:w-1/2 gap-5 '>
           <h3 className='text-white font-bold text-4xl  sm:text-5xl sm:leading-[3.5rem]'>THE USDT HUNTING,<br /> UNLEASHES EARNING

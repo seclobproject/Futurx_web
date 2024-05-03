@@ -1,9 +1,9 @@
 import React from 'react'
 import { Fade } from 'react-awesome-reveal'
-
+import background from '../../../assets/web image new-01.svg'
 const Revolution = () => {
     return (
-        <div className='bg-revolution bg-fixed bg-center bg-no-repeat bg-cover h-[80vh]'>
+        <div style={{ backgroundImage: `url(${background})` }} className='bg-revolution bg-fixed bg-center bg-no-repeat bg-cover h-[80vh]'>
             <div className='h-[80vh] bg-[#350557] bg-opacity-80 py-[10%] sm:px-10'>
                 <Fade direction="right" duration={2000} triggerOnce="true">
                     <div className=' sm:w-3/4 px-[10%]'>
