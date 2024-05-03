@@ -51,7 +51,7 @@ const Testimonials = () => {
                     <p className='text-white font-medium'>
                         Etiam scelerisque nec elit ac efficitur.<br/> Duis vestibulum magna sit amet ante gravida malesuada nunc gravida
                     </p>
-                    <button className='bg-[#2DE4C1] text-[#E702BF5E] p-2 rounded-lg max-w-[150px]'>See More</button>
+                    <button className='bg-[#2DE4C1] p-2 rounded-lg max-w-[150px]'>See More</button>
                 </div>
             </Fade>
             <Fade direction="right" duration={2000} triggerOnce="true">
