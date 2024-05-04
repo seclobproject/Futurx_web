@@ -1,38 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
+.zoom-in-out-box {
+  margin: 24px;
+  width: 300px;
+  height: 300px;
+  animation: zoom-in-zoom-out 4s ease infinite;
+}
+@media only screen and (max-width: 1000px) {
+  .zoom-in-out-box {
+    display: none;
+  }
+}
 
-@keyframes scaleLogo {
+@keyframes zoom-in-zoom-out {
   0% {
-    transform: scale(0);
+    transform: scale(1, 1);
   }
   50% {
-    transform: translateX(20px);
+    transform: scale(1.3, 1.3);
   }
   100% {
-    transform: scale(0);
+    transform: scale(1, 1);
   }
 }
 
-.logo_animation{
-  transform: scale(1.3);
-  animation: scaleLogo  5s infinite;
-}
-
-.road_line{
+.road_line {
   display: block;
 }
-  .map_cards{
-    margin-bottom: 20px;
-  }
+.map_cards {
+  margin-bottom: 20px;
+}
 @media only screen and (max-width: 1300px) {
   .road_line {
-   display: none;
-
+    display: none;
   }
-
 }

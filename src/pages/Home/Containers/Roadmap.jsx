@@ -20,7 +20,7 @@ const Roadmap = () => {
         },
     ]
     return (
-        <div style={{ backgroundImage: `url(${roadmap})` }} className='w-full min-h-[60vh] h-auto bg-[#350557] text-center sm:px-[10%] py-10 relative bg-roadmap'>
+        <div id='projects' style={{ backgroundImage: `url(${roadmap})` }} className='w-full min-h-[60vh] h-auto bg-[#350557] text-center sm:px-[10%] py-10 relative bg-roadmap'>
             <span className='text-[#FAB259] font-semibold text-lg'>Road Map</span>
             <h1 className='text-white text-4xl font-bold leading-[3rem] mb-6 '>Our upcoming Projects</h1>
             {/* <div className='bg-white w-[2px] h-[700px] top-[300px] absolute left-1/2 road_line'></div>

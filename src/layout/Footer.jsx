@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faFacebookF, faTwitter, faPinterest, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faPinterest, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import logo from '../assets/Futurx-logo.png'
@@ -49,27 +49,36 @@ const Footer = () => {
                                 <Link to="/"
                                 ><FontAwesomeIcon icon={faAngleRight} /> Home</Link>
                             </li>
-                            <li onClick={scrollTop}>
-                                <Link to="#about"
-                                ><FontAwesomeIcon icon={faAngleRight} /> About</Link>
+                            <li>
+                                <a href="#about"
+                                ><FontAwesomeIcon icon={faAngleRight} /> About</a>
                             </li>
-                            <li onClick={scrollTop}>
-                                <Link to="#contact"
-                                ><FontAwesomeIcon icon={faAngleRight} /> Contact</Link>
-                            </li>
-                            {/* <li onClick={scrollTop}>
-                                    <Link to="/article"
-                                    ><FontAwesomeIcon icon={faAngleRight} /> Article</Link>
-                                </li> */}
-                            {/* <li onClick={scrollTop}>
-                                    <Link to="/contact"
-                                    ><FontAwesomeIcon icon={faAngleRight} />Contact</Link>
-                                </li> */}
+                       
+                            
                         </ul>
                     </div>
                 </div>
-
-                <div className=" bg-white p-10 rounded-lg">
+                <div className="col-xl-2 col-lg-4 mt-50 pl-45 pr-0">
+                    <div className="footer-widget footer-widget__2">
+                        <ul className='text-white flex flex-col gap-4 py-4'>
+                            <li>
+                                <a href="#projects"
+                                ><FontAwesomeIcon icon={faAngleRight} /> Projects</a>
+                            </li>
+                            <li>
+                                <a href="#contact"
+                                ><FontAwesomeIcon icon={faAngleRight} /> Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="flex  gap-4 px-4 text-[#FAB259]">
+                    <a className='bg-white p-2 rounded-[50%] w-10 text-center' href="https://www.facebook.com/profile.php?id=61559472052571"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    <a className='bg-white p-2 rounded-[50%] w-10 text-center' href="https://twitter.com/Futurx12"><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a className='bg-white p-2 rounded-[50%] w-10 text-center' href="https://www.instagram.com/futurxglobal/"><FontAwesomeIcon icon={faInstagram} /></a>
+                    <a className='bg-white p-2 rounded-[50%] w-10 text-center' href="https://www.linkedin.com/in/futur-x-224885302/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                </div>
+                {/* <div className=" bg-white p-5 sm:p-10 rounded-lg ">
                     <h4 className="font-semibold text-lg mb-4">Subscribe to our Newsletter</h4>
                     <form className='flex gap-2' onSubmit={sendEmail} action="">
                         <input
@@ -79,28 +88,27 @@ const Footer = () => {
                             required
                             id="email"
                             placeholder="Enter Email"
-                            className='p-2 border-2'
+                            className='p-2 border-2 bg-[#FAB259] bg-opacity-30 outline-[#FAB259]'
                         /><button type="submit">
                             <FontAwesomeIcon icon={faPaperPlane} />
                         </button>
                     </form>
-                </div>
+                </div> */}
             </div>
-            <div className="flex justify-center w-full py-4 border-t ">
+            <div className="flex gap-2 flex-wrap justify-center w-full py-4 border-t ">
                 <div className="text-white">
                     <p>
                         Copyright ©
                         <Link onClick={scrollTop} to="/"
-                        >FuturX</Link>
+                        >FuturX </Link>
                         All Rights Reserved.
                     </p>
                 </div>
-                <div className="social__links social__links--2">
-                    {/* <a href="/"><FontAwesomeIcon icon={faFacebookF} /></a>
-                                <a href="/"><FontAwesomeIcon icon={faTwitter} /></a>
-                                <a href="/"><FontAwesomeIcon icon={faPinterest} /></a>
-                                <a href="/"><FontAwesomeIcon icon={faLinkedinIn} /></a> */}
-                </div>
+                {/* <div className="flex gap-4 px-4 text-[#FAB259]">
+                    <a className='bg-white p-2 rounded-[50%] w-10 text-center' href="https://twitter.com/Futurx12"><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a className='bg-white p-2 rounded-[50%] w-10 text-center' href="https://www.instagram.com/futurxglobal/"><FontAwesomeIcon icon={faInstagram} /></a>
+                    <a className='bg-white p-2 rounded-[50%] w-10 text-center' href="https://www.linkedin.com/in/futur-x-224885302/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                </div> */}
             </div>
         </footer>
     )
