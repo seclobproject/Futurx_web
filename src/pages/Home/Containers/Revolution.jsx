@@ -3,8 +3,8 @@ import { Fade } from 'react-awesome-reveal'
 import background from '../../../assets/web image new-01.svg'
 const Revolution = () => {
     return (
-        <div style={{ backgroundImage: `url(${background})` }} className=' bg-fixed bg-center bg-no-repeat bg-cover h-[80vh]'>
-            <div className='h-[80vh] bg-[#350557] bg-opacity-80 py-[10%] sm:px-10'>
+        // <div style={{ backgroundImage: `url(${background})` }} className=' bg-fixed bg-center bg-no-repeat bg-cover h-[80vh]'>
+        <div className='h-[80vh] bg-[#350557] py-[10%] sm:px-10'>
                 <Fade direction="right" duration={2000}>
                     <div className=' sm:w-3/4 px-[10%]'>
                         <h3 className='text-white font-bold text-4xl sm:text-5xl mb-7'>Cloning Revolution</h3>
@@ -12,7 +12,7 @@ const Revolution = () => {
                     </div></Fade>
                 <img src="" alt="" />
             </div>
-        </div>
+        // </div>
     )
 }
 

@@ -52,8 +52,8 @@ const Testimonials = () => {
     };
 
     return (
-        <div style={{ backgroundImage: `url(${background})` }} className='  w-full h-80vh bg-fixed  bg-cover bg-center  '>
-            <div className='bg-[#350557] bg-opacity-80 w-full px-[10%] py-[10%] flex md:flex-row flex-col gap-5 md:items-center justify-evenly' >
+        // <div style={{ backgroundImage: `url(${background})` }} className='  w-full h-80vh bg-fixed  bg-cover bg-center  '>
+            <div className='bg-[#350557] w-full px-[10%] py-[10%] flex md:flex-row flex-col gap-5 md:items-center justify-evenly' >
                 <Fade direction="left" duration={2000}>
                     <div className='flex flex-col gap-6  w-full sm:[300px]'>
                         <h2 className='text-4xl text-white font-semibold'>See What Our Clients<br /> Say’s About Us</h2>
@@ -91,7 +91,7 @@ const Testimonials = () => {
                     </div>
                 </Fade>
             </div>
-        </div>
+        // </div>
     );
 };
 
