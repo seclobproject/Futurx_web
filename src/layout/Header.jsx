@@ -54,7 +54,8 @@ const Header = () => {
                     </ul>
                 </Fade>
                 <Fade direction="down" duration={2000} triggerOnce>
-                    <button className='ml-10 mb-4 sm:ml-0 sm:mb-0 border-2 py-2 px-4 rounded-lg'>Login</button>
+                    <Link to='https://login.futurx.vip/signin'>
+                        <button className='ml-10 mb-4 sm:ml-0 sm:mb-0 border-2 py-2 px-4 rounded-lg'>Login</button></Link>
                 </Fade>
             </div>
         </header>
