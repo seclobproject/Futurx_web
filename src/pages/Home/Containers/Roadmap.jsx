@@ -8,15 +8,15 @@ import roadmap from '../../../assets/roadmap.png'
 
 const Roadmap = () => {
     const TimeLine = [
-        { title: "FTX COIN", className: '',img:coin, description: "FTX is a FuturX Coin, a versatile digital currency users can seamlessly purchase and services across various industries, from e-commerce and tech to travel and entertainment. FTX coin offers robust security features and easy exchange." },
+        { title: "FTX COIN", className: '', img: coin, description: "FTX Coin, developed by FuturX, is a versatile digital currency that can easily be purchased and utilized in across various industries, including e-commerce, technology, travel, and entertainment. With strong security measures in place, users can trade in different exchanges." },
         {
-            title: 'FTX GAMING', className: 'ml-auto',img:game, description: "FTX gaming aims to give players actual ownership of their in-game assets and potentially earn real value through their gaming activities, transforming traditional gaming dynamics."
+            title: 'FTX GAMING', className: 'ml-auto', img: game, description: "FTX Gaming aims to give players actual ownership of their in-game assets and potentially  earn real value through their gaming activities, transforming conventional dynamics of gaming."
         },
         {
-            title: 'FTX LOTTERY', className: '', img: lottery, description: "FTX lottery represents the digital version of the traditional lottery system that will surely provide you with a thrilling betting experience.This is because FTX lottery sites operate on blockchain networks,ensuring fairness, security, and verifiable outcomes."
+            title: 'FTX LOTTERY', className: '', img: lottery, description: "FTX Lottery offers a modern take on the traditional lottery system that will guarantee you with an exciting betting experience.  FTX Lottery platforms operate on blockchain networks, ensuring fairness, security and verifiable outcomes."
         },
         {
-            title: 'FTX E-COMMERCE', className: 'ml-auto', img: ecommerce, description: "FTX e-commerce is the world of online shopping, allowing customers to use digital currencies. Ensures secure and transparent transactions."
+            title: 'FTX E-COMMERCE', className: 'ml-auto', img: ecommerce, description: "FTX E-commerce is the world of online shopping, where customers can use digital currencies to shop. It provides secure and transparent transactions."
         },
     ]
     return (

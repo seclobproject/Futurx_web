@@ -11,7 +11,7 @@ const Hero = () => {
             POTENTIAL</h3>
           <h4 className='text-[#2DE4C1] font-bold sm:text-lg'>WORLD BIGGEST USDT HUNTING PROGRAM</h4>
           <h6 className='text-white font-semibold sm:text-lg'>The platform for maximizing your earnings with the USDT program and
-            unleashing your earning potential in the world of cryptocurrency.</h6>
+            unleashing your earning potential in the world of Digital Currency.</h6>
         </div></Fade>
       <img className='zoom-in-out-box w-[100px] h-[100px] sm:w-[250px] sm:h-[250px] ' src={logo} alt="logo" />
     </div>
